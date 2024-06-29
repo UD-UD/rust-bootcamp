@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/comments/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/constants_and_statics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/control_flow/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/data_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/functions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/variables/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/borrowing/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/ownership/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/ownership_continued/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/slices/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/enums_and_matching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/option_and_result/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/structs_and_impl_blocks/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/tuple_structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/4. How To Structure Your Rust Projects/auth_service/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/4. How To Structure Your Rust Projects/my_package/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/blog/blog_api/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/blog/blog_shared/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/blog/blog_web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/draw/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/bank/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/bank/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/benchmark_tests/benches" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/benchmark_tests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/deriving_traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/generics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/orphan_rule/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/supertraits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/trait_objects/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/traits_and_trait_bounds/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/box_smart_pointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/concrete_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/deref_coercion/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/generic_lifetimes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/rc_smart_pointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/refcell_smart_pointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/structs_and_lifetime_elision/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/advanced_error_handling/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/multiple_error_types/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/propagating_errors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/recoverable_errors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/result_and_option/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/unrecoverable_errors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/closures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/combinators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/function_pointers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/implementing_iterator_traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/iterating_over_collections/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/iterator_pattern/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/async_basics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/cpu_intensive_code/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/creating_threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/message_passing_between_threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/moving_values_into_threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/sharing_state_between_threads/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/streams/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/tokio_tasks/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/c_from_rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/inline_assembly/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/mutable_statics/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/raw_pointers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/rust_from_c/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/rust_from_python/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/unsafe_functions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/unsafe_traits/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step  1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 2/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 2/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 3/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 3/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Solution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 1/Step 1 &amp; 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 2/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 2/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Solution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 1/Step 1 &amp; 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 2/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 2/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/2. API/Solution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Solution/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_api/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_shared/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_web/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/comments/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/constants_and_statics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/control_flow/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/data_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/functions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/variables/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/borrowing/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/ownership/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/ownership_continued/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/2. How Rust Achieves Memory Safety/slices/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/enums_and_matching/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/option_and_result/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/structs_and_impl_blocks/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/tuple_structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/3. Building Your Own Data Types/vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/4. How To Structure Your Rust Projects/auth_service/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/4. How To Structure Your Rust Projects/my_package/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/blog/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/draw/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/bank/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/6. How To Test &amp; Document Your Code/benchmark_tests/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/deriving_traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/generics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/orphan_rule/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/supertraits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/trait_objects/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/1. Polymorphism With Generics &amp; Traits/traits_and_trait_bounds/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/box_smart_pointer/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/concrete_lifetimes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/deref_coercion/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/generic_lifetimes/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/rc_smart_pointer/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/refcell_smart_pointer/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/2. Advanced Memory Management/structs_and_lifetime_elision/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/advanced_error_handling/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/multiple_error_types/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/propagating_errors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/recoverable_errors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/result_and_option/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/3. Understanding Error Handling In Rust/unrecoverable_errors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/closures/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/combinators/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/function_pointers/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/implementing_iterator_traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/iterating_over_collections/target" />
+      <excludeFolder url="file://$MODULE_DIR$/2. Intermediate/4. Functional Features In Rust/iterator_pattern/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/async_basics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/cpu_intensive_code/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/creating_threads/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/message_passing_between_threads/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/moving_values_into_threads/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/sharing_state_between_threads/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/streams/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/tokio_tasks/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/c_from_rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/inline_assembly/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/mutable_statics/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/raw_pointers/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/rust_from_c/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/rust_from_python/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/unsafe_functions/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/unsafe_traits/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step  1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 1/Step 3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 2/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 2/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 3/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Problem/Stage 3/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/1. CLI/Solution/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 1/Step 1 &amp; 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 2/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 2/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Problem/Stage 3/Step 3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API-axum/Solution/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 1/Step 1 &amp; 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 2/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 2/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Problem/Stage 3/Step 3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/2. API/Solution/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 1/Step 4/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Solution/target" />
+      <excludeFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

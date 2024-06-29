@@ -1,5 +1,9 @@
 const MAX_PLAYERS: u8 = 10;
+
+// variables can be mutable, const cannot be mutated
 static CASINO_NAME: &str = "Rusty Casino";
+
+// mutable statics are unsafe
 
 fn main() {
     let a = 10;

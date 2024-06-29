@@ -1,5 +1,8 @@
-trait Park {
+trait Vehicle: Paint {
     fn park(&self);
+    fn get_default_color() -> String {
+        "black".to_owned()
+    }
 }
 
 trait Paint {
@@ -18,7 +21,7 @@ struct Car {
     info: VehicleInfo,
 }
 
-impl Park for Car {
+impl Vehicle for Car {
     fn park(&self) {
         println!("parking car!");
     }
@@ -36,7 +39,7 @@ impl Truck {
     }
 }
 
-impl Park for Truck {
+impl Vehicle for Truck {
     fn park(&self) {
         println!("parking truck!");
     }
@@ -61,28 +64,44 @@ fn main() {
         }
     };
     let house = House {};
-    let object = create_paintable_object();
+    let object = create_paintable_object(true);
+
+    let printable_object: Vec<&dyn Paint> = vec![&car, &house, object.as_ref()];
 
     paint_red(&car);
     paint_red(&house);
-    paint_red(&object);
+    paint_red(object.as_ref());
 
     paint_vehicle_red(&car);
 }
 
-fn paint_red<T: Paint>(object: &T) {
+// fn paint_red<T: Paint>(object: &T) {
+//     object.paint("red".to_owned());
+// }
+
+fn paint_red(object: &dyn Paint) {
     object.paint("red".to_owned());
 }
 
-fn paint_vehicle_red<T>(object: &T) where T: Paint + Park {
+fn paint_vehicle_red<T>(object: &T) where T: Vehicle {
     object.paint("red".to_owned());
 }
 
-fn create_paintable_object() -> impl Paint {
-    House {}
+fn create_paintable_object(vehile: bool) -> Box<dyn Paint> {
+    if vehile {
+        Box::new(Car {
+            info: VehicleInfo {
+                make: "Toyota".to_owned(),
+                model: "Corolla".to_owned(),
+                year: 2005,
+            }
+        })
+    } else {
+        Box::new(House {})
+    }
 }
 
-fn calculateBubbleSort() {
-    // Bubble Sort visualization
-    //
-}
+// Static Dispatch vs Dynamic Dispatch
+// Rust uses static dispatch by default, which means that the compiler knows at compile time which method to call.
+
+

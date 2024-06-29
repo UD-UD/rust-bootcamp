@@ -1,7 +1,9 @@
 use std::ops::{Deref, DerefMut};
 
+mod main1;
+
 struct MySmartPointer<T> {
-    value: T
+    value: T,
 }
 
 impl<T> MySmartPointer<T> {

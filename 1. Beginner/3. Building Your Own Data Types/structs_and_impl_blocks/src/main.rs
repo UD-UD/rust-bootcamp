@@ -1,3 +1,4 @@
+// Custom data structure
 struct Product {
     name: String,
     price: f32,
@@ -12,15 +13,15 @@ impl Product {
             in_stock: true
         }
     }
-    fn get_default_sales_tax() -> f32 {
+    fn get_default_sales_tax() -> f32 { // Associated fns can be used Product::get_default_sales_tax
         0.1
     }
-    fn calculate_sales_tax(&self) -> f32 {
+    fn calculate_sales_tax(&self) -> f32 { // class methods only borrow
         self.price * Product::get_default_sales_tax()
     }
     fn set_price(&mut self, price: f32) {
         self.price = price;
-    }
+    } // class method with mutable borrow
     fn buy(self) -> i32 {
         let name = self.name;
         println!("{name} was bought!");

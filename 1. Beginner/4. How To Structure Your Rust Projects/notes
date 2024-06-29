@@ -1,0 +1,12 @@
+
+
+Packages : Contains one or more crates that provides a set of funtionality. Packages allows us to build , test and share crates.
+    - Cargo.toml - Describe the package and define how to build crates
+    - Rules
+        - Must have a least 1 crate.
+        - At most 1 binary crate.
+        - Any number of binary crates.
+
+Crates: A tree of  modules that produces a library or executable.
+
+Modules: Lets you control the organisation and scope and privacy.

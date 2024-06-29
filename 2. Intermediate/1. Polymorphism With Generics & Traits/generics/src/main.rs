@@ -1,3 +1,6 @@
+mod main2;
+mod trait_bounds;
+
 struct BrowserCommand<T> {
     name: String,
     payload: T,
@@ -28,7 +31,7 @@ fn main() {
     );
     let cmd2 = BrowserCommand::new(
         "zoom".to_owned(),
-        200
+        200,
     );
     cmd1.print_payload();
     let p1 = cmd1.get_payload();

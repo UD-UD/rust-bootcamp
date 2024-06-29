@@ -41,7 +41,7 @@ fn main() {
     let s1 = t1.2;
     let (i1, f1, s1) = t1;
 
-    let unit = ();
+    let unit = (); // when nothing is returned, then unit is returned.
 
     // Type aliasing
     type Age = u8;

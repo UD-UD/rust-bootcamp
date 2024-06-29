@@ -1,10 +1,10 @@
 trait Park {
-    fn park(&self);
+    fn park(&self); // Method signature, no implementation
 }
 
 trait Paint {
     fn paint(&self, color: String) {
-        println!("painting object: {}", color);
+        println!("painting object: {}", color); // default implementation
     }
 }
 
@@ -32,7 +32,7 @@ struct Truck {
 
 impl Truck {
     fn unload(&self) {
-        println!("unloading truck.")
+        println!("unloading truck.");
     }
 }
 
@@ -60,29 +60,36 @@ fn main() {
             year: 1995,
         }
     };
+
     let house = House {};
-    let object = create_paintable_object();
 
-    paint_red(&car);
-    paint_red(&house);
-    paint_red(&object);
+    let object = create_printable_object();
 
-    paint_vehicle_red(&car);
+    pain_red(&car);
+    pain_red(&house);
+    pain_red(&object);
+
+    pain_red3(car);
 }
 
-fn paint_red<T: Paint>(object: &T) {
-    object.paint("red".to_owned());
+// 3 ways to specify trait bounds
+
+// 1. Bounding T with
+fn pain_red<T: Paint>(object: &T) {
+    object.pain("red".to_owned())
 }
 
-fn paint_vehicle_red<T>(object: &T) where T: Paint + Park {
-    object.paint("red".to_owned());
+// 2. Same as 1/ saying the object must be a reference that impliments Pait
+fn pain_red2(object: &impl Paint) {
+    object.pain("red".to_owned())
 }
 
-fn create_paintable_object() -> impl Paint {
+// where is usefull when you have miltiple trait bounds
+// T must be any type that must impl both Paint and park
+fn pain_red3<T>(object: &T) -> bool where T: Paint + Park {
+    object.pain("red".to_owned())
+}
+
+fn create_printable_object() -> Paint {
     House {}
-}
-
-fn calculateBubbleSort() {
-    // Bubble Sort visualization
-    //
 }

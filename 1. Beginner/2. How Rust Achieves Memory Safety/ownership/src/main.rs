@@ -1,3 +1,5 @@
+mod owenership;
+
 fn main() {
     let s1 = String::from("Rust"); // heap allocated string
     let s2 = s1.clone();

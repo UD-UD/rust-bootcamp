@@ -31,4 +31,16 @@ fn main() {
     for element in a {
         println!("{}", element);
     }
+
+    'outer: loop {
+        println!("Hello Hello");
+        'inner: loop {
+            println!("World World");
+            break 'outer;
+        }
+    }
+
+    let x = loop {
+        break 5.2;
+    };
 }

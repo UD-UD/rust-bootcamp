@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1cdd147-d7e0-4dc4-84cb-746dccf8c9ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership/src/owenership.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership_continued/src/good_one.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3. Building Your Own Data Types/enums_and_matching/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4. How To Structure Your Rust Projects/authentication_service/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4. How To Structure Your Rust Projects/authentication_service/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../4. How To Structure Your Rust Projects/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_api/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_shared/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_shared/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_web/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog_web/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/constants_and_statics/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/constants_and_statics/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/control_flow/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/control_flow/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/data_types/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../1. Get Up And Running FAST!/data_types/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership_continued/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/ownership_continued/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/slices/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../2. How Rust Achieves Memory Safety/slices/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Building Your Own Data Types/structs_and_impl_blocks/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../3. Building Your Own Data Types/structs_and_impl_blocks/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../draw/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../draw/src/lib.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="shlyo5tg" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hhAbmwnydGxcosVp8VspMEMwMQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run blog_api.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/ujjalduttadev/RustroverProjects/rust-bootcamp/1. Beginner/5. Structuring Larger Projects/newBlog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
+  }
+}]]></component>
+  <component name="RsExternalLinterProjectSettings">
+    <option name="runOnTheFly" value="true" />
+  </component>
+  <component name="RunManager" selected="Cargo.Run blog_api">
+    <configuration name="Run blog_api" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package blog_api --bin blog_api" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run blog_web" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package blog_web --bin blog_web" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test newBlog" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1cdd147-d7e0-4dc4-84cb-746dccf8c9ce" name="Changes" comment="" />
+      <created>1718036013436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718036013436</updated>
+      <workItem from="1718036014620" duration="13000" />
+      <workItem from="1718036042209" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
