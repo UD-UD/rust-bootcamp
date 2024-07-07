@@ -1,6 +1,7 @@
 use std::fs::File;
 
 mod main2;
+mod main3;
 
 fn main() {
     let file = File::open("example.txt");
