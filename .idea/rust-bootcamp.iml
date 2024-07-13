@@ -60,8 +60,6 @@
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/sharing_state_between_threads/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/streams/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/tokio_tasks/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/c_from_rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/inline_assembly/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/mutable_statics/src" isTestSource="false" />
@@ -103,7 +101,10 @@
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_api/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_shared/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_web/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/declarative_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros_22/declarative_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros_22/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros_22/procedural_macros/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros_22/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/comments/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/constants_and_statics/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/control_flow/target" />
@@ -158,8 +159,6 @@
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/sharing_state_between_threads/target" />
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/streams/target" />
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/1. Concurrency &amp; async/.await/tokio_tasks/target" />
-      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/target" />
-      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros/target" />
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/c_from_rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/inline_assembly/target" />
       <excludeFolder url="file://$MODULE_DIR$/3. Advanced/3. Unsafe Rust And FFI/mutable_statics/target" />
@@ -199,7 +198,10 @@
       <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 3/target" />
       <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Solution/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/target" />
-      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/declarative_macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros_22/declarative_macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros_22/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros_22/procedural_macros/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/procedural_macros_22/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
