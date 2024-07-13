@@ -103,6 +103,7 @@
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_api/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_shared/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/blog_web/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/declarative_macros/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/comments/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/constants_and_statics/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/1. Get Up And Running FAST!/control_flow/target" />
@@ -198,6 +199,7 @@
       <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Problem/Stage 2/Step 3/target" />
       <excludeFolder url="file://$MODULE_DIR$/4. Projects/3. Microservices/Solution/target" />
       <excludeFolder url="file://$MODULE_DIR$/1. Beginner/5. Structuring Larger Projects/newBlog/target" />
+      <excludeFolder url="file://$MODULE_DIR$/3. Advanced/2. Rust's Powerful Macro System/declarative_macros/declarative_macros/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
