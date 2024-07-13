@@ -1,3 +1,5 @@
+mod mains;
+
 struct Person {
     first_name: String,
     last_name: String,
@@ -42,7 +44,7 @@ impl IntoIterator for Person {
         vec![
             self.first_name,
             self.last_name,
-            self.occupation
+            self.occupation,
         ].into_iter()
     }
 }
@@ -51,7 +53,7 @@ fn main() {
     let p = Person {
         first_name: "John".to_owned(),
         last_name: "Doe".to_owned(),
-        occupation: "Software Engineer".to_owned()
+        occupation: "Software Engineer".to_owned(),
     };
 
     // let mut i = p.into_iter();

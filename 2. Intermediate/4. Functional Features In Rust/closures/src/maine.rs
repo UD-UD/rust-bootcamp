@@ -1,3 +1,5 @@
+use crate::{Credentials, get_password_validator};
+
 struct Credential<T>
 where
     T: Fn(&str, &str) -> bool,
@@ -13,6 +15,31 @@ where
 {
     fn is_valid(&self) -> bool {
         (self.validator)(self.username.as_str(), self.password.as_str())
+    }
+}
+
+fn get_default_cred<T>(function_param: T) -> Credentials<T>
+where
+    T: Fn(&str, &str) -> bool,
+{
+    Credentials {
+        username: "Ujjal".to_owned(),
+        password: "password123!".to_owned(),
+        validator: function_param,
+    }
+}
+
+fn _simple_password_validator(min_len: usize) -> impl Fn(&str, &str) -> bool {
+    move |_: &str, password: &str| !password.len() >= min_len
+}
+
+fn complex_password_validator(min_len: usize, special_char: bool) -> Box<dyn Fn(&str, &str) -> bool> {
+    if special_char {
+        Box::new(move |_, password: &str| {
+            password.len() >= min_len && password.contains(&['!', '@', '#', '$', '%', '^', '&', '*'][..])
+        })
+    } else {
+        Box::new(_simple_password_validator(min_len))
     }
 }
 
@@ -52,6 +79,9 @@ fn main() {
                         let closure = move || x;
                         println!("{}", x); // Error: x moved into closure
     */
+
+    let password_validator = get_password_validator(8, true);
+    let default_creds = get_default_cred(password_validator);
 }
 
 #[cfg(test)]

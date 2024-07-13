@@ -1,11 +1,8 @@
 use std::sync::mpsc;
 use std::thread;
 
-mod mins;
-
 fn main() {
-    let (tx, rx) = mpsc::channel();
-
+    let (tx, rx) = mpsc::channel::<String>();
     let sentences = [
         "!dlroW olleH".to_owned(),
         ".tsurT eW tsuR nI".to_owned(),
@@ -13,18 +10,27 @@ fn main() {
         "!tsuB ro tsuR".to_owned(),
     ];
 
-    for s in sentences {
-        let tx_clone = tx.clone();
-
+    for sentence in sentences {
+        let tr = tx.clone();
         thread::spawn(move || {
-            let reversed: String = s.chars().rev().collect();
-            tx_clone.send(reversed).unwrap();
+            let reverse_sentence: String = sentence.chars().rev().collect();
+            tr.send(reverse_sentence).unwrap();
         });
     }
 
+    // rx.recv();
     drop(tx);
-
     for sentence in rx {
         println!("{sentence}");
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn text_main() {
+        main()
     }
 }

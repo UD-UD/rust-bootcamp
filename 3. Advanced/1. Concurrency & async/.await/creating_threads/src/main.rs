@@ -1,5 +1,7 @@
 use std::{thread, time::Duration};
 
+mod mians;
+
 fn main() {
     let handle = thread::spawn(|| {
         for i in 0..20 {

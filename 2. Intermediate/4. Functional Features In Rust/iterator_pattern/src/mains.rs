@@ -1,17 +1,14 @@
-mod mains;
-
 trait Iterator {
     type Item;
-
     fn next(&mut self) -> Option<Self::Item>;
 }
 
 trait IntoIterator {
     type Item;
     type IntoIter: Iterator;
+
     fn into_iter(self) -> Self::IntoIter;
 }
-
 struct MyStruct {}
 
 impl Iterator for MyStruct {
@@ -23,6 +20,6 @@ impl Iterator for MyStruct {
 }
 
 fn main() {
-    let mut m = MyStruct {};
-    let item = m.next();
+    let mut st = MyStruct {};
+    let item = st.next();
 }
